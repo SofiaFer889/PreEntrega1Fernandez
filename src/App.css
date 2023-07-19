@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  background-color: #B862C1;
+}
+.navbar h3 {
+  text-align:left;
+}
+.navbar button{
+  margin-right: 5px;
+  color: beige;
+  letter-spacing: 2px;
+  background-color: #803897;
+}
