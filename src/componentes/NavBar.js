@@ -1,5 +1,7 @@
+import "./NavBar.css";
 import CartWidget from "./CartWidget";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -9,11 +11,19 @@ const NavBar = () => {
       </button>
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <h3>Tienda</h3>
+          <Link to='/'>
+            <h3>Tienda</h3>
+          </Link>
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-            <button type="button" className="btn btn-outline-light">Ropa</button>
-            <button type="button" className="btn btn-outline-light">Zapatos</button>
-            <button type="button" className="btn btn-outline-light">Accesorios</button>
+            <li className="nav-item">
+              <Link to={'/category/ropa'} className="nav-link btn btn-outline-light">Ropa</Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'/category/zapatos'} className="nav-link btn btn-outline-light">Zapatos</Link>
+            </li>
+            <li className="nav-item">
+              <Link to={'/category/accesorios'} className="nav-link btn btn-outline-light">Accesorios</Link>
+            </li>
           </ul>
         </div>
       </div>
