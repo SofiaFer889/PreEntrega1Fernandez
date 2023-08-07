@@ -1,4 +1,4 @@
-import "./ItemDetailContainer.css"
+import "./css/ItemDetailContainer.css"
 import { useState, useEffect } from "react"
 import {getProductsById} from "../asyncMock"
 import ItemDetail from "./ItemDetail"
@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const {itemId} = useParams()
 
     useEffect(() => {
-        getProductsById('itemId')
+        getProductsById(itemId)
             .then(response => {
                 setProduct(response)
             })

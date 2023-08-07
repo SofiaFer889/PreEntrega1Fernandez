@@ -1,9 +1,9 @@
-import "./ItemDetail.css"
+import "./css/ItemDetail.css"
 import ItemCount from "./ItemCount"
 
 const ItemDetail = ({ id, nombre, categoria, descripcion, precio, stock }) => {
     return (
-      <article className="CardItem card"> {}
+      <article className="CardItem card">
         <header className="Header">
           <h2 className="ItemHeader">{nombre}</h2>
         </header>
