@@ -17,6 +17,13 @@
     font-weight: bold;
     color: #030203; 
 }
+
+.img{
+    width: 230px;
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+}
   
 .info {
     font-size: 16px;
@@ -49,4 +56,17 @@
 .btn-outline-light:hover {
     background-color: #993399; 
     border-color: #653366;
+}
+
+.Opcion {
+    background-color: #803897;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.Opcion:hover {
+    background-color: #5e2681;
 }

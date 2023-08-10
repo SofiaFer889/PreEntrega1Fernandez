@@ -5,11 +5,13 @@ import NavBar from './componentes/NavBar';
 import ItemListContainer from './componentes/ItemListContainer';
 import ItemDetailContainer from './componentes/ItemDetailContainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {CartProvider} from './componentes/CartContext'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <CartProvider>
         <NavBar/>
         <Routes>
           <Route path='/' element={<ItemListContainer/>}/>
@@ -17,6 +19,7 @@ function App() {
           <Route path='/item/:itemId' element={<ItemDetailContainer/>}/>
           <Route path='*' element={<h1>404 NOT FOUNT</h1>}/>
         </Routes>
+        </CartProvider>
       </BrowserRouter>
     </div>
   );

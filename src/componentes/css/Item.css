@@ -19,6 +19,14 @@
   color: #333;
 }
 
+.imag{
+  width: 230px;
+  height: 250px;
+  max-height: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
 .Info {
   font-size: 16px;
   color: #555;
