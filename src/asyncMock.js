@@ -34,7 +34,8 @@ const products =[
         stock: 25,
         imag: 'pulceraCorazonPurpura.jpg',
         descripcion: 'Collar de plata con dije de corazon en color morado'
-    },{
+    },
+    {
         id: '5',
         nombre: 'Remera D-Day',
         precio: '700',
@@ -42,7 +43,8 @@ const products =[
         stock: 25,
         imag: 'remeraDDay.jpg',
         descripcion: 'Remera con estampado "D-Day" 100% algodon'
-    },{
+    },
+    {
         id: '6',
         nombre: 'Zapatilla Nike',
         precio: '6500',

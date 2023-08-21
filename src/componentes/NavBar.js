@@ -11,7 +11,7 @@ const NavBar = () => {
       </button>
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <Link to='/'>
+          <Link to='/' className="navbar-brand">
             <h3>Tienda</h3>
           </Link>
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
