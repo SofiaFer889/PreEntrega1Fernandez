@@ -1,0 +1,43 @@
+.CartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #cb99cc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fdcffe;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.CartItem h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #030203;
+}
+
+.CartItem p {
+  margin: 0;
+  color: #653366;
+  font-size: 1rem;
+}
+
+.CartItem p.subtotal {
+  font-weight: bold;
+  color: #030203;
+}
+
+.btn-danger {
+  background-color: #cb99cc;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-danger:hover {
+  background-color: #986699;
+}

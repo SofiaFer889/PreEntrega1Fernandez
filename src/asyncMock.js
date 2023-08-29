@@ -33,7 +33,7 @@ const products =[
         categoria: 'accesorios',
         stock: 25,
         imag: 'pulceraCorazonPurpura.jpg',
-        descripcion: 'Collar de plata con dije de corazon en color morado'
+        descripcion: 'Pulcera de plata con dije de corazon en color morado'
     },
     {
         id: '5',

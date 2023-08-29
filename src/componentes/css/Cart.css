@@ -1,0 +1,10 @@
+.Cart {
+  margin-bottom: 10px;
+}
+
+.CartButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
