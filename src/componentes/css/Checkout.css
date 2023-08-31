@@ -1,0 +1,43 @@
+Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Form {
+  background-color: #FDCBFE;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.Label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #8F4790;
+}
+
+.Input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #CA98CB;
+  border-radius: 5px;
+}
+
+.Button {
+  background-color: #986699;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.Button:last-child {
+  background-color: #8F4790;
+}
