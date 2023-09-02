@@ -1,5 +1,5 @@
 .imagen {
-  background-image: url(../media/img/impresiones.jpg);
+  background-image: url(/public/img/ropa.jpg);
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
