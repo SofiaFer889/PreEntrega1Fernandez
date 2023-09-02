@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ItemList from "./ItemList";
+import ItemList from "./ItemListContainer";
 import { useParams } from "react-router-dom";
 import { getDocs, collection, query, where } from "firebase/firestore";
 import { db } from "../config/firebase";
@@ -35,6 +35,9 @@ const ItemListContainer = ({ greeting }) => {
 
   return (
     <div>
+      <div class="imagen">
+        <h1 class="titulo">Impresiones</h1>
+      </div>
       <h1>{greeting}</h1>
       <ItemList products={products} />
     </div>
