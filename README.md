@@ -1,3 +1,7 @@
+Tienda(fashionstore) es una tienda de indumentaria online.
+
+la tienda consta de prendas, calzados y joyeria, podes ver todos los productos o navegar atravez de las distintas categorias e ir agregando los articulos que desee a su carrito de compra donde puede visualizar su orden y completarla en un checkout o eliminar las compras que ya no desee. El proposito es poder realizar una orden de compra de la manera mas sencilla posible
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
